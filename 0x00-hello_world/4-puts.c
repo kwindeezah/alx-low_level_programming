@@ -1,10 +1,14 @@
 #include <stdio.h>
 
-int main()
+/**
+* main -function prints out a string to the standard output
+* Return: 0 (Success)
+*/
+int main(void)
 {
-	char myStr[] ="\"Programming is like building a multilingual puzzle";
+	char myStr[] = "\"Programming is like building a multilingual puzzle";
 
-	puts(mystr);
+	puts(myStr);
 
-	return 0;
-}	
+	return (0);
+}
