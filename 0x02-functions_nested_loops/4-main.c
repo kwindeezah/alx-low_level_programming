@@ -14,13 +14,13 @@ int main(void)
 	int r;
 
 	r = isalpha('H');
-	putchar(r + '1');
+	_putchar(r + '0');
 	r = isalpha('o');
-	putchar(r + '1');
+	_putchar(r + '0');
 	r = isalpha(108);
-	putchar(r + '1');
+	_putchar(r + '0');
 	r = isalpha(';');
-	putchar(r + '0');
-	putchar(10);
+	_putchar(r + '0');
+	_putchar(10);
 	return (0);
 }
