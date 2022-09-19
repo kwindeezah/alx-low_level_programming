@@ -15,7 +15,7 @@ void print_rev(char *s)
 	{
 		if (s[count] != '\0')
 		{
-			count++
+			count++;
 		}
 		else
 		{
