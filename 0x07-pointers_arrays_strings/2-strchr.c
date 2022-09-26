@@ -6,7 +6,7 @@
  * @s: string to sesrch.
  * @c: char to find.
  * Return: a pointer to the first occurrence of the character
- * c in the string s, or 
+ * c in the string s, or
  * NULL if the character is not found.
  */
 
@@ -16,7 +16,7 @@ char *_strchr(char *s, char c)
 
 	while (1)
 	{
-		i = *s++;
+		i = *s++
 		if (i == c)
 		{
 			return (s - 1);
